@@ -1,90 +1,80 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pre-Collegiate Journal of Quantitative Research (PCJQR)</title>
-<meta name="description" content="PCJQR: a peer-reviewed journal publishing original research in statistics, probability, stochastic processes, and machine learning by pre-collegiate students.">
-<link rel="icon" href="/favicon.ico">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{
---bg:#0f1724; /* deep navy */
---card:#0b1220;
---muted:#9aa4b2;
---accent:#4f46e5; /* indigo */
---accent-2:#06b6d4; /* teal */
---glass: rgba(255,255,255,0.03);
---radius:14px;
-color-scheme: dark;
-font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-}
-*{box-sizing:border-box}
-body{margin:0;background:linear-gradient(180deg,var(--bg),#071021);color:#e6eef6;line-height:1.45}
-.container{max-width:1100px;margin:0 auto;padding:28px}
+<h1>Pre-Collegiate Journal of Quantitative Research</h1>
 
-/* Header */
-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0}
-.logo{display:flex;align-items:center;gap:12px}
-.logo-mark{width:52px;height:52px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;font-weight:800;color:white}
-.logo h1{margin:0;font-size:18px;letter-spacing:0.2px}
-.logo p{margin:0;font-size:12px;color:var(--muted)}
+<p>
+Welcome to the <strong>Pre-Collegiate Journal of Quantitative Research (PCJQR)</strong> — an academic platform dedicated to showcasing rigorous, original research conducted by exceptional high school students in statistics, mathematics, machine learning, biostatistics, probability, and quantitative modeling.
+</p>
 
-nav{display:flex;gap:14px;align-items:center}
-nav a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:8px;font-weight:600}
-nav a:hover{color:white;background:rgba(255,255,255,0.02)}
-.cta{background:linear-gradient(90deg,var(--accent),var(--accent-2));padding:10px 14px;border-radius:10px;color:white;text-decoration:none;font-weight:700}
+<h2>About the Journal</h2>
+<p>
+The Pre-Collegiate Journal of Quantitative Research publishes high-quality student work that demonstrates genuine scientific inquiry and technical depth. Each contribution is typically produced through independent or mentored research programs that emphasize:
+</p>
+<ul>
+  <li>Mathematical and statistical rigor</li>
+  <li>Reproducible methodologies</li>
+  <li>Clarity of interpretation</li>
+  <li>Relevance to the broader scientific community</li>
+</ul>
+<p>
+The journal seeks to elevate young scholars by providing a professional venue for early research dissemination.
+</p>
 
-/* Hero */
-.hero{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:center;padding:30px 0}
-.hero-card{background:var(--card);padding:28px;border-radius:var(--radius);backdrop-filter: blur(6px);box-shadow: 0 6px 20px rgba(4,6,12,0.6)}
-.eyebrow{color:var(--accent);font-weight:700;font-size:13px;margin-bottom:12px}
-.hero h2{margin:0 0 10px;font-size:28px}
-.hero p{color:var(--muted);margin:0 0 18px}
-.actions{display:flex;gap:12px}
-.btn{padding:10px 14px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);text-decoration:none;font-weight:700}
-.btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white}
-.small{font-size:13px;color:var(--muted)}
+<h2>Scope</h2>
+<p>PCJQR accepts research across a wide range of quantitative disciplines, including but not limited to:</p>
+<ul>
+  <li><strong>Statistics &amp; Biostatistics</strong></li>
+  <li><strong>Probability &amp; Stochastic Processes</strong></li>
+  <li><strong>Machine Learning &amp; Data Science</strong></li>
+  <li><strong>Mathematical Modeling</strong></li>
+  <li><strong>Epidemiology</strong></li>
+  <li><strong>Operations Research</strong></li>
+  <li><strong>Computational Methods</strong></li>
+</ul>
+<p>Interdisciplinary work with strong quantitative foundations is also welcomed.</p>
 
-/* Sidebar stats */
-.stats{display:flex;flex-direction:column;gap:12px}
-.stat{background:var(--glass);padding:12px;border-radius:12px}
-.stat strong{display:block;font-size:20px}
+<h2>Submission Guidelines</h2>
+<ul>
+  <li>Manuscripts should be written in clear, formal academic English.</li>
+  <li>All submissions must include:
+    <ul>
+      <li>Title and author information</li>
+      <li>Abstract (150–300 words)</li>
+      <li>Introduction and background</li>
+      <li>Methods and technical framework</li>
+      <li>Results with tables/figures as appropriate</li>
+      <li>Discussion and conclusions</li>
+      <li>References formatted consistently</li>
+    </ul>
+  </li>
+  <li>Submissions must represent original work by high school students.</li>
+  <li>Mentors may be acknowledged but cannot be listed as co-authors.</li>
+</ul>
 
-/* Sections */
-section{margin-top:26px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.card{background:var(--card);padding:18px;border-radius:12px}
-.card h3{margin:0 0 8px}
-.card p{color:var(--muted);margin:0 0 12px}
+<h2>Review Process</h2>
+<p>
+All manuscripts undergo editorial screening followed by formal peer review. Review focuses on:
+</p>
+<ul>
+  <li>Technical correctness</li>
+  <li>Rigor and reproducibility</li>
+  <li>Clarity of exposition</li>
+  <li>Contribution to the field</li>
+</ul>
+<p>Revisions may be requested before final acceptance.</p>
 
-/* Article list */
-.articles{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-.article{display:flex;gap:14px;align-items:flex-start;background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);padding:14px;border-radius:12px}
-.thumb{width:84px;height:84px;border-radius:10px;background:linear-gradient(135deg,#0e2433,#162b45);display:flex;align-items:center;justify-content:center;font-weight:700}
-.meta{flex:1}
-.meta h4{margin:0 0 6px;font-size:16px}
-.meta p{margin:0;color:var(--muted);font-size:13px}
-.tags{margin-top:8px;display:flex;gap:8px}
-.tag{background:rgba(255,255,255,0.03);padding:6px 8px;border-radius:8px;font-size:12px;color:var(--muted)}
+<h2>Publication Format</h2>
+<p>Accepted papers are published online as part of the journal's regular issues. Each article receives:</p>
+<ul>
+  <li>A DOI or stable URL</li>
+  <li>A formal citation format</li>
+  <li>Professional typesetting</li>
+</ul>
 
-/* Footer */
-footer{margin-top:40px;padding:24px 0;color:var(--muted);border-top:1px solid rgba(255,255,255,0.02)}
+<h2>Contact</h2>
+<p>
+For inquiries about submissions, editorial policies, or partnership opportunities, please contact the editorial team.
+</p>
 
-/* Responsive */
-@media (max-width:960px){
-.hero{grid-template-columns:1fr}
-.grid{grid-template-columns:repeat(2,1fr)}
-.articles{grid-template-columns:1fr}
-nav{display:none}
-}
-@media (max-width:520px){
-.grid{grid-template-columns:1fr}
-.logo h1{font-size:16px}
-}
-</style>
-</head>
-<body>
-<div class="container">
-<header>
+<hr>
+<p>Thank you for your interest in the Pre-Collegiate Journal of Quantitative Research. We are proud to support the next generation of quantitative scientists.</p>
 </html>
