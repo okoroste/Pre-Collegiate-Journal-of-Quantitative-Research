@@ -1,4 +1,4 @@
-
+<img src="path/to/logo.jpg"  width="300">
 <h1>Pre-Collegiate Journal of Quantitative Research</h1>
 
 <p>
