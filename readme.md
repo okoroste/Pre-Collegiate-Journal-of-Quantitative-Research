@@ -1,4 +1,4 @@
-<!doctype html>
+
 <h1>Pre-Collegiate Journal of Quantitative Research</h1>
 
 <p>
