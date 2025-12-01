@@ -1,6 +1,8 @@
 <img src="logo.jpg"  width="300">
 <h1>Pre-Collegiate Journal of Quantitative Research</h1>
 
+Motto: Scientific Curiosity Fueled by Positivity
+
 <p>
 Welcome to the <strong>Pre-Collegiate Journal of Quantitative Research (PCJQR)</strong> — an academic platform dedicated to showcasing rigorous, original research conducted by exceptional high school students in statistics, mathematics, machine learning, biostatistics, probability, and quantitative modeling.
 </p>
